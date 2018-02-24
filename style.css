@@ -1,0 +1,46 @@
+.active {
+  background-color: orange;
+}
+
+canvas {
+  border: solid 3px #ccc;
+}
+
+#droparea {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  border: 3px dotted #ccc;
+}
+
+.desc {
+  margin: auto auto;
+  width: 170px;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: #aaa;
+}
+
+
+.margin {
+  margin-top: 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+.download {
+  margin-top: 20px;
+}
+
+a.btn {
+  display: block;
+  width: 200px;
+  margin-left: 5px;
+  margin-top: 5px;
+}

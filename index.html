@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <div class="container margin">
+
+      <div class="row">
+        <h2 class='title'>
+          ポンチ絵編集
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <canvas id="test_canvas" width="750" height="700"></canvas>
+        </div>
+
+        <div class="col-md-4">
+          <div id='droparea'>
+            <div class='desc'>ここにポンチ絵をドロップ</div>
+          </div>
+          <div class='download'>
+            <a class='btn btn-success' id='download' href='' download='aaa'>編集済みをダウンロード</a>
+            <a class='btn btn-default' id='save'>一旦ローカルに保存</a>
+            <a class='btn btn-default' id='load'>読み込み</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.22/fabric.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
