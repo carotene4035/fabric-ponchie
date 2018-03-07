@@ -44,3 +44,8 @@ a.btn {
   margin-left: 5px;
   margin-top: 5px;
 }
+
+.dragover {
+  border: 3px dotted coral !important;
+  background-color: #ffd6ad;
+}
